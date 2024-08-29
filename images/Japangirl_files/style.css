@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+    border-bottom: 3px solid #fff ;
+    border-top: 3px solid #fff ;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+
+
+.container{
+    height: 100vh; /* ustawia wysokosc kontenra na 100% wysokosci widocznego ekranu */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px #fff solid;
+}
+
+.half-width-image{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardpage {
+    height: 100vh;
+    align-items: center;
+    color: #fff;
+    border: 3px #fff solid;
+    background-image: url(../images/photo1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; /* Ustawienie pozycji kontenera na relative, aby overlay działał poprawnie */
+    z-index: 0; /* Ustawienie kontekstu z-index */
+}
+
+.cardpage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Półprzezroczysta nakładka o przyciemnieniu 30% */
+    z-index: -1; /* Ustawienie z-index, aby overlay znajdował się za treścią */
+}
+
+
+
+h2{
+    text-align: center;
+    margin: 10px;
+}
+
+p{
+    margin:10px
+}
+
+.cardpage2 {
+    height: 100vh;
+    align-items: center;
+    color: #fff;
+    border: 3px #fff solid;
+    background-image: url(../images/photo3.jpg);
+
+    background-position: center;
+    background-size: cover;
+    position: relative; /* Ustawienie pozycji kontenera na relative, aby overlay działał poprawnie */
+    z-index: 0; /* Ustawienie kontekstu z-index */
+}
+
+.cardpage2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Półprzezroczysta nakładka o przyciemnieniu 30% */
+    z-index: -1; /* Ustawienie z-index, aby overlay znajdował się za treścią */
+}
+
+.cardpage3 {
+    height: 100vh;
+    align-items: center;
+    color: #fff;
+    border: 3px #fff solid;
+    background-image: url(../images/photo42.jpg);
+
+    background-position: center;
+    background-size: cover;
+    position: relative; /* Ustawienie pozycji kontenera na relative, aby overlay działał poprawnie */
+    z-index: 0; /* Ustawienie kontekstu z-index */
+}
+
+.cardpage3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Półprzezroczysta nakładka o przyciemnieniu 30% */
+    z-index: -1; /* Ustawienie z-index, aby overlay znajdował się za treścią */
+}
+
+.cardpage4 {
+    height: 100vh;
+    align-items: center;
+    color: #fff;
+    border: 3px #fff solid;
+    background-image: url(../images/photo42.jpg);
+
+    background-position: bottom;
+    background-size: cover;
+    position: relative; /* Ustawienie pozycji kontenera na relative, aby overlay działał poprawnie */
+    z-index: 0; /* Ustawienie kontekstu z-index */
+}
+
+.cardpage4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Półprzezroczysta nakładka o przyciemnieniu 30% */
+    z-index: -1; /* Ustawienie z-index, aby overlay znajdował się za treścią */
+}
+
+
+.cardpage5 {
+    height: 100vh;
+    align-items: center;
+    color: #fff;
+    border: 3px #fff solid;
+
+    background-position: bottom;
+    background-size: cover;
+    position: relative; /* Ustawienie pozycji kontenera na relative, aby overlay działał poprawnie */
+    z-index: 0; /* Ustawienie kontekstu z-index */
+}
+
+.cardpage5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Półprzezroczysta nakładka o przyciemnieniu 30% */
+    z-index: -1; /* Ustawienie z-index, aby overlay znajdował się za treścią */
+}
+
+
+
+.cardpage8 {
+    height: 100vh;
+    align-items: center;
+    color: #fff;
+    border: 3px #fff solid;
+
+    background-position: center;
+    background-size: cover;
+    position: relative; /* Ustawienie pozycji kontenera na relative, aby overlay działał poprawnie */
+    z-index: 0; /* Ustawienie kontekstu z-index */
+}
+
+.cardpage8::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Półprzezroczysta nakładka o przyciemnieniu 30% */
+    z-index: -1; /* Ustawienie z-index, aby overlay znajdował się za treścią */
+}
